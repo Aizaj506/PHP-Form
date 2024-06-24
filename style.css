@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +19,52 @@ body{
 }
 
 div.container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 80%;
+    padding: 34px ;
+    margin: auto;
+    text-align: center;
+}
+
+.container p, h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container h1{
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+}
+
+.submitMsg{
+    font-family: 'PT Serif', serif;
+    font-size: 23px;
+    color: red;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 18px;
     
+}
+
+.btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background-color: #358539;
 }
